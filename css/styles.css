@@ -1,0 +1,308 @@
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    font-family: 'Poppins', sans-serif;
+}
+
+.gambar {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    margin: 10px;
+    position: relative;
+}
+.gambar img {
+    position: absolute;
+    left: -1000%;
+    right: -1000%;
+    top: -1000%;
+    bottom: -1000%;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.img-fluid {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img-payment {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.order-finish {
+    width: 20rem;
+}
+#trend-products, #testimonial, footer, #detail-produk, #booking1 {
+    background: #DC4C4C;
+}
+
+.rounded-pojok {
+    border-radius: 0px 4rem;
+}
+
+.fs-hero {
+    font-size: 3.5rem;
+}
+
+.garisku {
+    position: relative;
+}
+
+.garisku::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 80px;
+    border-top: 4px solid #ffc107;
+    bottom: -6px;
+}
+
+.kategori {
+    width: fit-content;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: .3rem .6rem;
+    border-radius: 0px .45rem 0px 0px;
+}
+.card {
+    overflow: hidden;
+    border-color: rgb(0 0 0 / 9%);
+    transition: .2s ease;
+}
+.card:hover{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.bg-testimonial {
+    top: -1.3rem; 
+    left: -1.3rem; 
+    z-index:-2;
+    background: #ffffff24;
+}
+.nav-link.active {
+    color: #ffc107!important;
+    font-weight: 500;
+}
+  .btn-circle.btn-md {
+    width: 50px;
+    height: 50px;
+    padding: 7px 10px;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+#detail-produk .breadcrumb-item {
+    color:#181818
+}
+#detail-produk .breadcrumb-item > a {
+    color:#ffc107;
+    text-decoration: none;
+}
+.img-small {
+    height: 7rem;
+    width: 12rem;
+}
+
+.metode {
+    width: 5rem;
+    height: 3rem;
+}
+
+.steps {
+    margin-bottom: 33px;
+    margin-top: 40px;
+}
+.steps ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    justify-content: center;
+}
+.steps li,
+.steps li.current {
+    outline: none;
+}
+.steps li a {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #ffffff;
+    margin-right: 143px;
+    position: relative;
+    outline: none;
+}
+.steps li a::before {
+    position: absolute;
+    content: "";
+    background: #e5e5e5;
+    width: 143px;
+    height: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 100%;
+}
+.steps li.last a {
+    margin-right: 0;
+}
+.steps li.last a::before {
+    content: none;
+}
+.steps li.current a,
+.steps li.current a:active,
+.steps li.done a::before,
+.steps li.done a,
+.steps li.done a:active {
+    background: #ffc107;
+    color: white;
+}
+.step-done a{
+    background: #ffc107!important;
+}
+.steps li .current-info {
+    display: none;
+}
+.steps li .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(34, 34, 34);
+    font-size: 24px;
+    font-weight: 600;
+    font-family: montserrat, sans-serif;
+}
+.content {
+    padding: 0 80px;
+}
+.content h2 {
+    display: none;
+}
+.inner .form-row {
+    display: flex;
+    margin: 0 -10px;
+    position: relative;
+}
+.inner .form-row .form-holder {
+    width: 50%;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.inner .form-row .form-holder.form-holder-2 {
+    width: 53.6%;
+    position: relative;
+}
+.inner .form-row .form-holder label {
+    color: #333;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    display: block;
+}
+.inner .form-row .form-holder input,
+.inner .form-row .form-holder select {
+    width: 100%;
+    padding: 14.5px 15px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    appearance: unset;
+    outline: none;
+    font-family: montserrat, sans-serif;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+.inner .form-row .form-holder select {
+    color: #666;
+    font-size: 15px;
+    font-weight: 500;
+    background: 0 0;
+    z-index: 1;
+    cursor: pointer;
+    position: relative;
+}
+.inner .form-row .form-holder .select-btn {
+    z-index: 0;
+    position: absolute;
+    top: 55%;
+    right: 8%;
+    font-size: 18px;
+    cursor: pointer;
+    color: #666;
+}
+.actions {
+    margin: 20px 80px 60px;
+}
+.actions ul {
+    list-style: none;
+    padding-left: 0;
+}
+.actions ul li.disabled,
+.actions ul li:first-child {
+    display: none;
+}
+.actions ul li {
+    padding: 0;
+    border: none;
+    border-radius: 25px;
+    display: inline-flex;
+    height: 50px;
+    width: 160px;
+    justify-content: center;
+    align-items: center;
+    background: #3760e5;
+    font-family: montserrat, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.actions ul li:hover {
+    background: #2b4ab3;
+}
+.actions ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 42px;
+}
+@media screen and (max-width: 1199px) {
+    .wizard-v10-content {
+        margin: 180px 20px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .inner .form-row {
+        flex-direction: column;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 767px) {
+    .inner .form-row .form-holder.form-holder-2 {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 575px) {
+    .wizard-v10-content {
+        width: 90%;
+    }
+    .content {
+        padding: 0 40px;
+    }
+    .steps li a {
+        width: 50px;
+        height: 50px;
+        margin-right: 50px;
+    }
+    .steps li a::before {
+        width: 50px;
+    }
+}

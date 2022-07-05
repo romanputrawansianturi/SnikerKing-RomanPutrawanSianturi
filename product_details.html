@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SNIKER KING | Product Details</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,400;1,700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-white py-3 position-sticky top-0 shadow-sm" style="z-index: 999">
+            <div class="container">
+                <a class="navbar-brand fw-semibold" href="index.html">SNIKER KING</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigasibar" aria-controls="navigasibar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navigasibar">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Categories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sign Up</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="position-relative">
+                                    <img src="img/truck.svg" alt="" style="width: 28px; height: 28px" />
+                                    <span class="position-absolute top-0 start-0 translate-middle badge rounded-pill bg-warning"> 0 </span>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="detail-produk" class="p-5">
+            <div class="container mb-4">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#">Home</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Product Details</li>
+                    </ol>
+                  </nav>
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="w-100">
+                            <img src="img/detail-produk.jpg" alt="" class="rounded-4 img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="d-flex flex-column w-100 h-100 gap-4">
+                            
+                            <img src="img/detail-produk.jpg" alt="" class="rounded-4 img-fluid img-small">
+                            <img src="img/detail-produk.jpg" alt="" class="rounded-4 img-fluid img-small">
+                            <img src="img/detail-produk.jpg" alt="" class="rounded-4 img-fluid img-small">
+                            <img src="img/detail-produk.jpg" alt="" class="rounded-4 img-fluid img-small">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 py-4">
+                        <h5>About The Shoes</h5>
+                        <p class="text-warning">Air in a box". Itu adalah slogan iklan sederhana Nike saat mereka meluncurkan Air Force 1. 
+                            Sepatu basket pertama yang menyematkan kantong udara di tumit untuk bantalan kaki.
+                            Perancang Nike Air Force 1 adalah Bruce Kilgore. Ia menciptaka Air Force 1 terinspirasi dari sepatu untuk naik gunung. Sementara penguji pertama sepatu ini adalah Tinker Hatfield. Ternyata Hatfield tiga tahun kemudian merancang sebuah sepatu yang legendaris bernama Air Jordan 3.
+                            
+                            Ketika Air Force 1 dilepas ke pasaran yang terjadi adalah sebuah ledakan. Nike saat itu langsung
+                            menggaet enam bintang NBA untuk memakai Air Force 1, yang hingga kini 
+                            dikenal dengan sebutan "Original Six". Mereka yaitu Moses Malone (Philadelphia 76ers),
+                            Michael Cooper (LA Lakers), Bobby Jones (Philadelphia 76ers), Calvin Natt (Portland Trail Blazers), Mychal Thompson (Portland Trail Blazers) dan Jamal Wilkes (LA Lakers).</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card rounded-4">
+                            <div class="card-body p-4">
+                              <h5 class="card-title fw-bold text-center mb-3">Booking Shoes</h5>
+                              <h5 class="text-success fs-3">Rp. 1.000.000</h5>
+                              <div class="mb-3">
+                                <label for="colorSelect" class="form-label">Color</label>
+                                <select class="form-select" aria-label="Default select example" id="colorSelect">
+                                    <option value="red">Red</option>
+                                    <option value="grey">Grey</option>
+                                    <option value="blue">Blue</option>
+                                  </select>
+                              </div>
+                              <label for="sizeSelect" class="form-label">Size</label>
+
+                              <div class="input-group mb-3">
+                                <button class="btn btn-primary type="button" id="button-minus"><i class="bi bi-dash-lg"></i></button>
+                                <input type="number" name="quant[1]" class="form-control input-number" value="42" min="20" max="60" id="sizeSelect">
+                                <button class="btn btn-primary" type="button" id="button-plus"><i class="bi bi-plus-lg"></i></button>
+                            </div>
+                              <a href="booking.html" class="btn btn-primary w-100 btn-warning">Continue to Order</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="popular-products" class="p-5">
+            <div class="container">
+                <h4 class="garisku">Popular Products</h4>
+                <div class="row my-4">
+                    <div class="col-3">
+                        <div class="card rounded-4" style="width: 100%">
+                            <a class="text-reset text-decoration-none" href="product_details.html">
+                                <img src="img/produk-1.jpg" class="card-img-top" alt="Nike Air Force 1" />
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">NIKE AIR FORCE 1</h5>
+                                    <p class="card-text text-center text-warning fs-5">Rp. 1.500.000</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card rounded-4" style="width: 100%">
+                            <a class="text-reset text-decoration-none" href="product_details.html">
+                                <img src="img/produk-2.jpg" class="card-img-top" alt="JORDAN HIGH" />
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">JORDAN HIGH</h5>
+                                    <p class="card-text text-center text-warning fs-5">Rp. 1.000.000</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card rounded-4" style="width: 100%">
+                            <a class="text-reset text-decoration-none" href="product_details.html">
+                                <img src="img/produk-3.jpg" class="card-img-top" alt="NIKE VAPOR 1" />
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">NIKE VAPOR 1</h5>
+                                    <p class="card-text text-center text-warning fs-5">Rp. 800.000</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card rounded-4" style="width: 100%">
+                            <a class="text-reset text-decoration-none" href="product_details.html">
+                                <img src="img/nike-flynkit.jpg" class="card-img-top" alt="NIKE FLYNKIT" />
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">NIKE FLYNKIT</h5>
+                                    <p class="card-text text-center text-warning fs-5">Rp. 900.000</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-4">
+                    <div class="col-3">
+                        <div class="card rounded-4" style="width: 100%">
+                            <a class="text-reset text-decoration-none" href="product_details.html">
+                                <img src="img/vans-slip-on-g.jpg" class="card-img-top" alt="VANS SLIP ON G" />
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">VANS SLIP ON G</h5>
+                                    <p class="card-text text-center text-warning fs-5">Rp. 1.000.000</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card rounded-4" style="width: 100%">
+                            <a class="text-reset text-decoration-none" href="product_details.html">
+                                <img src="img/vans-classic.jpg" class="card-img-top" alt="VANS CLASSIC" />
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">VANS CLASSIC</h5>
+                                    <p class="card-text text-center text-warning fs-5">Rp. 700.000</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card rounded-4" style="width: 100%">
+                            <a class="text-reset text-decoration-none" href="product_details.html">
+                                <img src="img/cat-grey.jpg" class="card-img-top" alt="CAT GREY" />
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">CAT GREY</h5>
+                                    <p class="card-text text-center text-warning fs-5">Rp. 2.000.000</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card rounded-4" style="width: 100%">
+                            <a class="text-reset text-decoration-none" href="product_details.html">
+                                <img src="img/cat-brown.jpg" class="card-img-top" alt="CAT BROWN" />
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">CAT BROWN</h5>
+                                    <p class="card-text text-center text-warning fs-5">Rp. 2.500.000</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="testimonial" class="p-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="">
+                            <div class="box position-relative ms-auto" style="z-index: 0; width: 90%">
+                                <div class="position-absolute h-100 w-100 bg-testimonial rounded-5"></div>
+                                <img src="img/testimonial.jpg" alt="Testimonial" class="img-fluid rounded-5 shadow-sm" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-flex flex-column align-items-start justify-content-center px-4">
+                        <div class="fs-2 text-warning my-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <div class="fs-2 my-4">SNIKER KING GOES TO <br />WORLD!!!...</div>
+                        <div class="text-warning fs-5 mb-4">Sniker King , Shoes Online Shop</div>
+                        <a href="product_details.html" class="btn btn-warning my-4">Read Story</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact-us" class="p-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col my-2">
+                        <h3>SNIKER KING</h3>
+                        <div>
+                            <a href="#" title="Follow us on Instagram" class="btn btn-dark btn-circle btn-md">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                            <a href="#" title="Follow us on Facebook" class="btn btn-dark btn-circle btn-md">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                            <a href="#" title="Follow us on Twitter" class="btn btn-dark btn-circle btn-md">
+                                <i class="bi bi-twitter"></i>
+                            </a>
+                            <a href="#" title="Subscribe our channel on Youtube" class="btn btn-dark btn-circle btn-md">
+                                <i class="bi bi-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 my-2">
+                        <h3>Visit Us</h3>
+                        <div>Jl. Karya 1, GG.Miduk Kecamatan Marpoyan Damai Pekanbaru, Riau, 28282 0819-2233-4455</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="p-4">
+            <div class="container text-center text-white">
+                <div>2022 Copyright <span class="text-warning">SNIKER KING</span>. All Rights Reserved.</div>
+            </div>
+        </footer>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                var sizeSelect = $("#sizeSelect");
+                $("#button-plus").on('click', function() {
+                    sizeSelect.val(parseInt(sizeSelect.val())+1)
+                });
+                $("#button-minus").on('click', function() {
+                    sizeSelect.val(parseInt(sizeSelect.val())-1)
+                })
+            });
+            
+
+        </script>
+    </body>
+</html>
